@@ -23,6 +23,7 @@ public class Service : IService
 		if (composite.BoolValue)
 		{
 			composite.StringValue += "Suffix";
+            //test
 		}
 		return composite;
 	}
